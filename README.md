@@ -1,1 +1,1 @@
-"# HackMerced2024" 
+# HackMerced2024
