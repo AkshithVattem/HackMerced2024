@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Own
+        </title>
+        <body>
+
+        </body>
+    </head>
+</html>
+<style>
+    .video-bg{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1; 
+        opacity: 100%; 
+        filter: sepia(10%) saturate(50%) brightness(50%) hue-rotate(330deg);
+    }
+    .Mission{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 20%;
+        left: 2%; 
+        width: 50%;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+
+        
+    }
+    .Launch {
+  background-color: #ffffff; 
+  border: none;
+  color: #ef4444;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: fixed;
+  bottom: 14%;
+  left: 2%;
+  
+
+}
+
+.Launch {
+  background-color: #ea580c; 
+  color: rgb(255, 255, 255); 
+}
+
+.Launch:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+}
+.Header{
+    border: none;
+    background-color: #1f2937;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    Height: 70px;
+    Width: 100%;
+}
+
+.How{
+    position: fixed;
+    left: 10%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px; 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.How:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+}
+
+.About{
+    position: fixed;
+    left: 48%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.About:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+  
+}
+.image{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    right: 10%;
+    top: -10px;
+}
+.image:hover{
+    opacity: 60%;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.4s;
+}
+.Name{
+    position: fixed;
+    Bottom: 22%;
+    Left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
+
+}
+
+
+    
+</style>
+
+<video class="video-bg" autoplay muted loop>
+    <source src="My Movie 1.mp4" type="video/mp4">
+</video>
+
+<p class="Mission" >Easy access for better outcomes</p>
+
+<a href="https://76f17e0ee0d2770b43.gradio.live">
+    <button class="Launch">Launch &#8594;</button>
+</a>
+
+
+<div class="Header">
+
+    <a href="practice.html"> 
+        <button class="How">Main</button>
+    </a>
+    
+    <a href="about.html">
+        <button class="About">About Us</button>
+    </a>
+        <img class="image" src="pngtree-medical-logo-vector-png-image_6580784.png">
+</div>
+
+<p class="Name">
+    QuickDiagnosis
+</p>

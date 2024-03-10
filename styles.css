@@ -1,0 +1,359 @@
+.Return{
+    position: fixed;
+    left: 2%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Return:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);  
+    }
+.story{
+    position: fixed;
+    top: 50%;
+    width: 40%;
+    left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    right: 10%;
+    top: -10px;
+}
+.image:hover{
+    opacity: 60%;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.4s;
+}
+
+    .video-bg{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1; 
+        opacity: 100%; 
+        filter: sepia(10%) saturate(50%) brightness(50%) hue-rotate(330deg);
+    }
+    .Mission{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 20%;
+        left: 2%; 
+        width: 50%;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+
+        
+    }
+    .Launch {
+  background-color: #ffffff; 
+  border: none;
+  color: #ef4444;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: fixed;
+  bottom: 14%;
+  left: 2%;
+  
+
+}
+
+.Launch {
+  background-color: #ea580c; 
+  color: rgb(255, 255, 255); 
+}
+
+.Launch:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+}
+.Header{
+    border: none;
+    background-color: #1f2937;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    Height: 70px;
+    Width: 100%;
+}
+
+.How{
+    position: fixed;
+    left: 10%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px; 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.How:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+}
+
+.About{
+    position: fixed;
+    left: 48%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.About:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+  
+}
+.image{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    right: 10%;
+    top: -10px;
+}
+.image:hover{
+    opacity: 60%;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.4s;
+}
+.Name{
+    position: fixed;
+    Bottom: 22%;
+    Left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
+
+}
+.Return{
+    position: fixed;
+    left: 2%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Return:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);  
+    }
+.story{
+    position: fixed;
+    top: 50%;
+    width: 40%;
+    left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    right: 10%;
+    top: -10px;
+}
+.image:hover{
+    opacity: 60%;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.4s;
+}
+.How{
+    position: fixed;
+    left: 10%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px; 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.How:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+}
+
+.About{
+    position: fixed;
+    left: 48%;
+    top: 3%;
+    background-color: #ea580c;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.About:hover {
+  background-color: #ffffff;
+  color: #ea580c;
+  transform: scale(1.1, 1.1);
+  
+}
+.image{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    right: 10%;
+    top: -10px;
+}
+.image:hover{
+    opacity: 60%;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.4s;
+}
+.Name{
+    position: fixed;
+    Bottom: 22%;
+    Left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
+
+}
+.Header{
+    border: none;
+    background-color: #1f2937;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    Height: 70px;
+    Width: 100%;
+}
+.story{
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    top: 25%;
+    left: 2%;
+    color: white;
+    font-style: oblique;
+    width: 50%;
+
+}
+.sub{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 15%;
+    left: 2%;
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.line{
+    position: fixed;
+    top: 25%;
+    width: 25%;
+    height: 2px;
+    color: white;
+    background-color: white;
+    left: 2%;
+}
+.new{
+    position: absolute;
+    bottom: 20%;
+    left: 55%;
+    top: 25%;
+    height: 325px;
+}
+.Return{
+    position: fixed;
+    left: 2%;
+    top: 3%;
+    background-color: #0360ae;
+    border: none;
+    color: white;
+    Height: 30px;
+    Width: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Return:hover {
+  background-color: #ffffff;
+  color: #0360ae;
+  transform: scale(1.1, 1.1);  
+    }
+
+
+
+
